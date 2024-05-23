@@ -33,8 +33,8 @@ public class RobotApp{
         kiersten.keyRelease(83);
         kiersten.keyPress(69);
         kiersten.keyRelease(69);
-        kiersten.keyPress(13);
-        kiersten.keyRelease(13);
+        kiersten.keyPress(10);
+        kiersten.keyRelease(10);
     }
 }
         
