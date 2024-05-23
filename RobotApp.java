@@ -33,9 +33,8 @@ public class RobotApp{
         kiersten.keyRelease(83);
         kiersten.keyPress(69);
         kiersten.keyRelease(69);
-        kiersten.mouseMove(300,100);;
-        kiersten.mousePress(InputEvent.BUTTON1_DOWN_MASK);
-        kiersten.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
+        kiersten.keyPress(13);
+        kiersten.keyRelease(13);
     }
 }
         
