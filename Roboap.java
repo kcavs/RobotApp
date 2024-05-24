@@ -48,6 +48,7 @@ public class Roboap{
         kiersten.delay(500);
         kiersten.mousePress(InputEvent.BUTTON1_DOWN_MASK);
         kiersten.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
+        kiersten.delay(1200);
         Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
         Rectangle bounds = new Rectangle(screenSize);
         BufferedImage image= kiersten.createScreenCapture(bounds); 
